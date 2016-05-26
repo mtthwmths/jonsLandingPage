@@ -1,8 +1,13 @@
+/* tag selectors */
 section {
 	font-family: 'Droid Sans', sans-serif;
 }
 li {
 	display: inline;
+}
+
+body {
+	background-color: #CCCCCC;
 }
 article {
 	border-style: solid;
@@ -10,6 +15,11 @@ article {
 	background-color: #CFFFFF;
 	width: 640px;
 }
-body {
-	background-image: url('BabyWatermelonAndDarkerThanMidnight.png')
+/* class selectors */
+.social-links {
+	background-color: #BBB000
+}
+.social-top, .social-bottom {
+	height: 12px;
+	/*background-color: #00000F;*/
 }
