@@ -5,21 +5,31 @@ section {
 li {
 	display: inline;
 }
-
-body {
-	background-color: #CCCCCC;
-}
-article {
-	border-style: solid;
-	border-width: medium;
-	background-color: #CFFFFF;
-	width: 640px;
+header, footer {
+	height: 50px;
 }
 /* class selectors */
+.page {
+	max-width: 1000px;
+	margin: 0 auto;
+}
 .social-links {
-	background-color: #BBB000
+	background-color: #BBB000;
+	float: right;
+	height: inherit;
+	line-height: 50px;
+	margin: 0 auto;
+	font-size: large;
 }
 .social-top, .social-bottom {
-	height: 12px;
-	/*background-color: #00000F;*/
+	margin: auto 10px;
+}
+.home-link {
+	float: left;
+	height: inherit;
+	width: auto;
+}
+.home-link > img {
+	height:inherit;
+	width: auto;
 }
