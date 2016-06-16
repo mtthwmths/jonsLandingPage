@@ -1,12 +1,36 @@
 /* tag selectors */
-section {
-	font-family: 'Droid Sans', sans-serif;
+body {
+	background-color: #182F3C;
+	margin: 4px 8px 4px 8px;
+}
+ul {
+	padding: 0;
 }
 li {
 	display: inline;
 }
 header, footer {
 	height: 50px;
+	background: #FFF;
+	margin: 0 auto;
+}
+a {
+	color: #CCC;
+}
+a:link {
+    color:#4AA150;
+}
+a:visited {
+    color:#4AA150;
+}
+a:hover {
+    color:#CCD1D5;
+}
+a:active {
+    color:#182F3C;
+}
+iframe {
+	margin: 10px auto;
 }
 /* class selectors */
 .page {
@@ -14,7 +38,6 @@ header, footer {
 	margin: 0 auto;
 }
 .social-links {
-	background-color: #BBB000;
 	float: right;
 	height: inherit;
 	line-height: 50px;
@@ -29,7 +52,49 @@ header, footer {
 	height: inherit;
 	width: auto;
 }
+.home-link:hover {
+	background-color:#CCD1D5;
+}
 .home-link > img {
 	height:inherit;
 	width: auto;
+}
+.main-content {
+	background: #CCD1D5;
+	margin: 0 auto;
+	height: 450px;
+}
+.app-links{
+	margin: 0 auto;
+	height: 110px;
+	width: auto;
+}
+.app-links-list {
+	margin: inherit;
+	clear:both;
+}
+.app-store-link{
+	margin:15px 30px 0 30px;
+	float:left;
+} 
+.google-play-link {
+	margin:15px 30px 0 30px;
+	float: right;
+}
+.youtube-video-container {
+	height: 315px;
+	width: 100%;
+}
+.youtube-video-right {
+	float: right;
+}
+.youtube-video-left {
+	float: left;
+}
+.youtube-video-left, .youtube-video-right {
+	display:inline;
+	margin: 0 10px;
+	background-color: #CCD1D5;
+	height: inherit;
+	width: 400px;
 }
